@@ -157,7 +157,7 @@ async def welcome(client, message: Message):
                 out = start_panel(_)
                 await message.reply_video(
                     random.choice(YUMI_VIDS),
-                    caption=_["start_3"].format(
+                    caption=_["start_1"].format(
                         message.from_user.mention,
                         app.mention,
                         message.chat.title,
