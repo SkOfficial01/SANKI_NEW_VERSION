@@ -28,7 +28,7 @@ from strings import get_string
 
 #--------------------------
 
-NEXI_VID = [
+YUMI_VIDS = [
 "https://telegra.ph/file/7979222b2dc18125622c9.mp4",
 "https://telegra.ph/file/7969dae2cc3b49551d21a.mp4",
 "https://telegra.ph/file/419a6f92061df09878328.mp4",
