@@ -1,4 +1,4 @@
-#<<<<<<<<<<<<<<SK>>>>>>>>>>>>>>#
+#<<<<<<<<<<<<<<SK OFFICIAL>>>>>>>>>>>>>>#
 #<<<<<<<<<<<<<<Give<Credit<Else>You>Chutiya>>>>>>>>>>>>>>#
 import os
 from PIL import ImageDraw, Image, ImageFont, ImageChops
