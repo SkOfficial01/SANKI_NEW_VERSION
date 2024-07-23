@@ -29,12 +29,13 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://telegra.ph/file/7979222b2dc18125622c9.mp4",
-"https://telegra.ph/file/7969dae2cc3b49551d21a.mp4",
-"https://telegra.ph/file/419a6f92061df09878328.mp4",
-"https://telegra.ph/file/2653d2c8f777b802361a5.mp4",
-"https://telegra.ph/file/cca8d5b1185ef8f1d662e.mp4",
-"https://telegra.ph/file/f48e273b081ab6df62533.mp4",
+"https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4",
+"https://graph.org/file/ba7699c28dab379b518ca.mp4",
+"https://graph.org/file/83ebf52e8bbf138620de7.mp4",
+"https://graph.org/file/82fd67aa56eb1b299e08d.mp4",
+"https://graph.org/file/318eac81e3d4667edcb77.mp4",
+"https://graph.org/file/7c1aa59649fbf3ab422da.mp4",
+"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
 
 ]
 
@@ -58,11 +59,11 @@ async def start_pm(client, message: Message, _):
             if await is_on_off(2):
                 return await app.send_message(
                     chat_id=config.LOGGER_ID,
-                    text=f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ᴄʜᴇᴄᴋ <b>sᴜᴅᴏʟɪsᴛ</b>.\n\n<b>ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
+                    text=f"{message.from_user.mention} á´á´sá´ sá´á´Êá´á´á´ á´Êá´ Êá´á´ á´á´ á´Êá´á´á´ <b>sá´á´á´ÊÉªsá´</b>.\n\n<b>á´sá´Ê Éªá´ :</b> <code>{message.from_user.id}</code>\n<b>á´sá´ÊÉ´á´á´á´ :</b> @{message.from_user.username}",
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("ð")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -96,7 +97,7 @@ async def start_pm(client, message: Message, _):
             if await is_on_off(2):
                 return await app.send_message(
                     chat_id=config.LOGGER_ID,
-                    text=f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ᴄʜᴇᴄᴋ <b>ᴛʀᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</b>.\n\n<b>ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
+                    text=f"{message.from_user.mention} á´á´sá´ sá´á´Êá´á´á´ á´Êá´ Êá´á´ á´á´ á´Êá´á´á´ <b>á´Êá´á´á´ ÉªÉ´Òá´Êá´á´á´Éªá´É´</b>.\n\n<b>á´sá´Ê Éªá´ :</b> <code>{message.from_user.id}</code>\n<b>á´sá´ÊÉ´á´á´á´ :</b> @{message.from_user.username}",
                 )
     else:
         out = private_panel(_)
@@ -108,7 +109,7 @@ async def start_pm(client, message: Message, _):
         if await is_on_off(2):
             return await app.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ.\n\n<b>ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
+                text=f"{message.from_user.mention} á´á´sá´ sá´á´Êá´á´á´ á´Êá´ Êá´á´.\n\n<b>á´sá´Ê Éªá´ :</b> <code>{message.from_user.id}</code>\n<b>á´sá´ÊÉ´á´á´á´ :</b> @{message.from_user.username}",
             )
 
 
