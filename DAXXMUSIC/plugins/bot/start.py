@@ -35,7 +35,6 @@ YUMI_VIDS = [
 "https://telegra.ph/file/2653d2c8f777b802361a5.mp4",
 "https://telegra.ph/file/cca8d5b1185ef8f1d662e.mp4",
 "https://telegra.ph/file/f48e273b081ab6df62533.mp4",
-
 ]
 
 
